@@ -97,8 +97,7 @@ def inicio():
     else:
         os.system('CLS')
 
-    
-    #!!!!!!!!!!!!!!!!!!!!!!!
+   
     with open('Palavras.txt', 'r') as f: #Abrir o arquivo com as palavras e chamar de 'f'
         lines = f.read().splitlines() #Ler o arquivo e separar as linhas
         f.close() #Fechar o arquivo
@@ -170,7 +169,7 @@ def inicio():
         else:
             niveis = '''________       \n               \n        |      \n        0      \n       /|\     \n       / \     \n'''
               
-            if erros < len (niveis) and letra not in L :#\\\!!!erro das tentativas!!!///                    
+            if erros < len (niveis) and letra not in L :                    
                 os.system('CLS')
                 print('Letra não encontrada\n'.upper())
                 erros = erros +1
