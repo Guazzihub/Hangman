@@ -1,10 +1,10 @@
-?? Rules for Hangman Game
+ðŸ“œ Rules
 Objective:
 
 Guess the hidden word one letter at a time within 7 attempts.
 How to Play:
 
-At the start of the game, you’ll see the word represented by underscores (e.g., _ _ _ _).
+At the start of the game, youâ€™ll see the word represented by underscores (e.g., _ _ _ _).
 Enter a single letter to guess. Both uppercase and lowercase inputs are treated equally.
 Correct guesses reveal the position(s) of the letter in the word.
 Incorrect guesses reduce your remaining attempts by one.
@@ -24,4 +24,4 @@ A sound plays when you make a mistake.
 Another celebratory sound plays upon winning.
 Retry Option:
 
-After a win or loss, you’ll be prompted to play again or exit the game.
+After a win or loss, youâ€™ll be prompted to play again or exit the game.
