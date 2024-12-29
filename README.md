@@ -23,19 +23,6 @@ Execute the main script to start the game:
 
 ```python Hangman.py```
 
-# 📂 File Structure
-.
-
-├── hangman_game.py     # Main script with the game logic
-
-├── requirements.txt    # Dependencies required for the game
-
-├── victory.mp3         # Sound played upon victory
-
-├── error.mp3           # Sound played upon incorrect guesses
-
-├── README.md           # Project documentation
-
 # ℹ️ Additional Information
 
 If the online word source is unavailable, the game falls back to a default list of words.
