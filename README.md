@@ -1,34 +1,33 @@
-# Hangman Game
+# Jogo da Forca
 
-The classic **Hangman Game** in Python.
+O clássico **Jogo da Forca** em Python.
 
-## 🎮 Features
+## 🎮 Recursos
 
-- **Cross-Platform Support**: Works seamlessly on Windows, macOS, and Linux.
-- **Dynamic Word Selection**: Fetches random words from an online API for varied gameplay.
-- **Audio Feedback**: Plays sounds for victories and mistakes using `playsound`.
-- **Retry Option**: Restart the game easily after a win or loss.
-- **Modernized Codebase**: Fully translated into English, ensuring compatibility and clarity.
+- **Suporte Multiplataforma**: Funciona perfeitamente em Windows, macOS e Linux.
+- **Seleção Dinâmica de Palavras**: Busca palavras aleatórias de uma API online para uma jogabilidade variada.
+- **Feedback de Áudio**: Reproduz sons para vitórias e erros usando `playsound`.
+- **Opção de Tentar Novamente**: Reinicie o jogo facilmente após uma vitória ou derrota.
+- **Base de Código Modernizada**: Totalmente traduzida para o inglês, garantindo compatibilidade e clareza.
 
-## 🚀 Getting Started
+## 🚀 Começando
 
-### Prerequisites
+### Pré-requisitos
 
-Ensure you have Python 3 installed. Install the required dependencies by running:
+Certifique-se de ter o Python 3 instalado. Instale as dependências necessárias executando:
 
 ```pip install -r requirements.txt```
 
-Running the Game
-Execute the main script to start the game:
+Executando o Jogo
+Execute o script principal para iniciar o jogo:
 
 ```python Hangman.py```
 
-# ℹ️ Additional Information
+# ℹ️ Informações Adicionais
 
-If the online word source is unavailable, the game falls back to a default list of words.
+Se a fonte de palavras online não estiver disponível, o jogo retornará a uma lista padrão de palavras.
 
-Developed with improved readability, compatibility, and user experience in mind.
+Desenvolvido com foco em melhor legibilidade, compatibilidade e experiência do usuário.
 
-# 🛠️ Contributing
-Found a bug or have a suggestion? Feel free to open an issue or submit a pull request!
-
+# 🛠️ Contribuindo
+Encontrou um bug ou tem alguma sugestão? Sinta-se à vontade para abrir uma issue ou enviar um pull request!
