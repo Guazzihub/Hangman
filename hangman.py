@@ -98,7 +98,7 @@ def start_game():
     correct_guesses = set()
 
     print("\n---------------------------------------------------------WELCOME---------------------------------------------------------\n")
-    print("Rules: Guess the word one letter at a time. You have 6 attempts to get it right.")
+    print("Rules: Guess the word one letter at a time. You have {attempts} attempts to get it right.")
 
     while attempts > 0:
         os.system('clear' if os.name != 'nt' else 'cls')
