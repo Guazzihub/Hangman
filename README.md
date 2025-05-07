@@ -21,7 +21,7 @@ Certifique-se de ter o Python 3 instalado. Instale as dependências necessárias
 Executando o Jogo
 Execute o script principal para iniciar o jogo:
 
-```python Hangman.py```
+```python hangman.py```
 
 # ℹ️ Informações Adicionais
 
