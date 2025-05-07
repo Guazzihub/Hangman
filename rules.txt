@@ -1,8 +1,6 @@
 📜 Rules
 
-Objective:
-
-- Guess the hidden word one letter at a time within 7 attempts.
+Objective: Guess the hidden word one letter at a time within 7 attempts.
 
 How to Play:
 
@@ -11,12 +9,9 @@ How to Play:
 - Correct guesses reveal the position(s) of the letter in the word.
 - Incorrect guesses reduce your remaining attempts by one.
 
-Winning Condition:
+Winning Condition: Correctly guess all the letters before running out of attempts, you win!
 
-- Correctly guess all the letters before running out of attempts, you win!
-Losing:
-
-- After using all 7 attempts without guessing the word, you lose, and the game ends.
+Losing: After using all 7 attempts without guessing the word, you lose, and the game ends.
 
 Special Notes:
 
