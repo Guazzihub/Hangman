@@ -45,7 +45,7 @@ HANGMAN_PICS = ['''
 # Function to fetch words from an online source
 def fetch_words():
     try:
-        response = requests.get("https://random-word-api.herokuapp.com/word?number=10")
+        response = requests.get("https://random-word-api.herokuapp.com/word?lang=pt-br&number=10")
         if response.status_code == 200:
             words = response.json()
             # Filter out any non-alphabetic words and convert to uppercase
@@ -53,25 +53,21 @@ def fetch_words():
             if words:
                 return words
             else:
-                print("No valid words fetched. Falling back to default word list.")
+                print("Nenhuma palavra coletada. Retornando a lista padrão de palavras.")
         else:
-            print("Error fetching words. Falling back to default word list.")
+            print("Erro ao coletar palavras. Retornando a lista padrão de palavras.")
     except Exception as e:
-        print(f"Error: {e}. Using default word list.")
+        print(f"Erro: {e}. Usando lista padrão de palavras.")
     
     # Expanded default word list
     return [
-        "PYTHON", "DEVELOPER", "PROGRAM", "DEBUG", "ALGORITHM",
-        "FUNCTION", "VARIABLE", "CONDITION", "LOOP", "STRING",
-        "INTEGER", "BOOLEAN", "LIST", "TUPLE", "DICTIONARY",
-        "COMPUTER", "KEYBOARD", "SOFTWARE", "HARDWARE", "NETWORK",
-        "DATABASE", "FRAMEWORK", "LIBRARY", "SYNTAX", "COMPILER"
+        "LISTA", "DE", "PALAVRAS", "AQUI"
     ]
 
 # Victory function
 def victory(word):
     os.system('clear' if os.name != 'nt' else 'cls')
-    print(f"\nYOU WON! The word was: {word}\n")
+    print(f"\nVocê Venceu! A palavra era: {word}\n")
     print(r'''
                  /__\
                /|    |\
@@ -85,7 +81,7 @@ def victory(word):
     try:
         playsound('victory.mp3')
     except Exception as e:
-        print(f"Could not play victory sound: {e}")
+        print(f"Não foi possível tocar a música de vitória: {e}")
     time.sleep(3)
     retry()
 
@@ -98,7 +94,7 @@ def start_game():
     correct_guesses = set()
 
     print("\n---------------------------------------------------------WELCOME---------------------------------------------------------\n")
-    print("Rules: Guess the word one letter at a time. You have 6 attempts to get it right.")
+    print("Regras: Advinhe a palavra, uma letra por vez. Você tem {attempts} tentativas para acertar.")
 
     while attempts > 0:
         os.system('clear' if os.name != 'nt' else 'cls')
@@ -110,12 +106,12 @@ def start_game():
         guess = input("Enter a letter: ").upper()
 
         if not guess.isalpha() or len(guess) != 1:
-            print("Invalid input. Please enter a single alphabetic letter.")
+            print("Entrada inválida. Por favor insira uma letra do alfabeto.")
             time.sleep(1.5)
             continue
 
         if guess in guessed_letters:
-            print("You already guessed that letter. Try again.")
+            print("Você já utilizou essa letra. Tente novamente.")
             time.sleep(1.5)
             continue
 
@@ -130,7 +126,7 @@ def start_game():
             try:
                 playsound('error.mp3')
             except Exception as e:
-                print(f"Could not play error sound: {e}")
+                print(f"Não foi possível tocar o som: {e}")
             attempts -= 1
 
     # Final state after all attempts used
@@ -140,21 +136,21 @@ def start_game():
     try:
         playsound('game_over.mp3')  # Optional: Add a game over sound
     except Exception as e:
-        print(f"Could not play game over sound: {e}")
+        print(f"Não foi possível tocar o som: {e}")
     retry()
 
 # Retry function
 def retry():
     while True:
-        choice = input("\nDo you want to play again? (y/n): ").lower()
-        if choice == 'y':
+        choice = input("\nDeseja jogar novamente?? (s/n): ").lower()
+        if choice == 's':
             start_game()
             break
         elif choice == 'n':
             print("Thanks for playing! Goodbye!")
             break
         else:
-            print("Invalid choice. Please enter 'y' or 'n'.")
+            print("Opção inválida. Por favor insira 's' or 'n'.")
 
 # Entry point of the game
 if __name__ == "__main__":
