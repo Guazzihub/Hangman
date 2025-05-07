@@ -21,7 +21,7 @@ Ensure you have Python 3 installed. Install the required dependencies by running
 Running the Game
 Execute the main script to start the game:
 
-```python Hangman.py```
+```python hangman.py```
 
 # ℹ️ Additional Information
 
