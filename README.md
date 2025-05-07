@@ -1,6 +1,4 @@
-# Hangman Game
-
-The classic **Hangman Game** in Python.
+# Hangman Game - The classic Game in Python.
 
 ## 🎮 Features
 
@@ -25,10 +23,10 @@ Execute the main script to start the game:
 
 # ℹ️ Additional Information
 
-If the online word source is unavailable, the game falls back to a default list of words.
+- If the word API is unavailable, the game falls back to a default list of words.
 
-Developed with improved readability, compatibility, and user experience in mind.
+- Developed with improved readability, compatibility, and user experience in mind.
 
 # 🛠️ Contributing
-Found a bug or have a suggestion? Feel free to open an issue or submit a pull request!
+- Found a bug or have a suggestion? Feel free to open an issue or submit a pull request!
 
