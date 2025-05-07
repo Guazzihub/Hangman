@@ -1,6 +1,4 @@
-# Jogo da Forca
-
-O clássico **Jogo da Forca** em Python.
+# Jogo da Forca - O jogo clássico em Python.
 
 ## 🎮 Recursos
 
@@ -17,7 +15,6 @@ O clássico **Jogo da Forca** em Python.
 Certifique-se de ter o Python 3 instalado. Instale as dependências necessárias executando:
 
 ```pip install -r requirements.txt```
-
 Executando o Jogo
 Execute o script principal para iniciar o jogo:
 
@@ -25,9 +22,9 @@ Execute o script principal para iniciar o jogo:
 
 # ℹ️ Informações Adicionais
 
-Se a fonte de palavras online não estiver disponível, o jogo retornará a uma lista padrão de palavras.
+- Se a API de palavras online não estiver disponível, o jogo retornará a uma lista padrão de palavras.
 
-Desenvolvido com foco em melhor legibilidade, compatibilidade e experiência do usuário.
+- Desenvolvido com foco em melhor legibilidade, compatibilidade e experiência do usuário.
 
-# 🛠️ Contribuindo
-Encontrou um bug ou tem alguma sugestão? Sinta-se à vontade para abrir uma issue ou enviar um pull request!
+# 🛠️ Contrição
+- Encontrou um bug ou tem alguma sugestão? Sinta-se à vontade para abrir uma issue ou enviar um pull request!
