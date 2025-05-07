@@ -1,27 +1,32 @@
-📜 Rules
-Objective:
+📜 Regras
 
-Guess the hidden word one letter at a time within 7 attempts.
-How to Play:
+Objetivo:
 
-At the start of the game, you’ll see the word represented by underscores (e.g., _ _ _ _).
-Enter a single letter to guess. Both uppercase and lowercase inputs are treated equally.
-Correct guesses reveal the position(s) of the letter in the word.
-Incorrect guesses reduce your remaining attempts by one.
-Winning:
+Adivinhe a palavra escondida uma letra por vez (7 tentativas).
 
-If you correctly guess all the letters before running out of attempts, you win!
-Losing:
+Como Jogar:
 
-If you use all 7 attempts without guessing the word, you lose, and the game ends.
-Special Notes:
+No início do jogo, você verá a palavra representada por sublinhados (por exemplo, _ _ _ _).
+Digite uma única letra para adivinhar. Entradas maiúsculas e minúsculas são tratadas igualmente.
+Palpites corretos revelam a(s) posição(ões) da(s) letra(s) na palavra.
+Palpites incorretos reduzem suas tentativas restantes em 1.
+Vitória:
 
-Repeated guesses of the same letter will not count as a new attempt but will notify you.
-Only alphabetic inputs are allowed. Invalid inputs, such as numbers or symbols, prompt an error message.
-Audio Feedback:
+Adivinhe corretamente todas as letras antes de esgotar as tentativas para ganhar!
 
-A sound plays when you make a mistake.
-Another celebratory sound plays upon winning.
-Retry Option:
+Derrota:
 
-After a win or loss, you’ll be prompted to play again or exit the game.
+7 tentativas sem adivinhar a palavra, significa derrota e o jogo termina.
+Observações Especiais:
+
+Adivinhações repetidas da mesma letra não contarão como uma nova tentativa, mas o notificarão.
+Somente entradas alfabéticas são permitidas. Entradas inválidas, como números ou símbolos, exibirão uma mensagem de erro.
+
+Feedback de Áudio:
+
+Um som é emitido quando você comete um erro.
+Som comemorativo é emitido ao vencer.
+
+Opção de Tentar Novamente:
+
+Após uma vitória ou derrota, você será solicitado a jogar novamente ou sair do jogo.
