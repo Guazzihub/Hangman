@@ -1,6 +1,6 @@
 # Jogo da Forca - O jogo clássico em Python.
 
-## 🎮 Recursos
+## 🎮 Funcionalidades
 
 - **Suporte Multiplataforma**: Funciona perfeitamente em Windows, macOS e Linux.
 - **Seleção Dinâmica de Palavras**: Busca palavras aleatórias de uma API online para uma jogabilidade variada.
