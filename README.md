@@ -1,3 +1,4 @@
+## [Clique aqui para ver a versão em Português](https://github.com/Guazzihub/Hangman/tree/Portugu%C3%AAs)
 # Hangman Game - The classic Game in Python.
 
 ## 🎮 Features
